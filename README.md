@@ -37,18 +37,11 @@ This project helped me understand how backend logic connects with frontend rende
 
 ---
 
----
-
 ## 📸 Screenshots
 
-_Add screenshots of your app here to make your project attractive on GitHub._
-
-Example:
-
-![Homepage](./screenshots/homepage.png)  
-![View Note](./screenshots/view-note.png)  
-
-> Tip: Create a `screenshots/` folder in your repo and add images with proper names.
+![Homepage](./screenshots/Screenshot1.png)  
+![View Note](./screenshots/Screenshot2.png)  
+![Backend Check](./screenshots/Screenshot3.png)
 
 ---
 
