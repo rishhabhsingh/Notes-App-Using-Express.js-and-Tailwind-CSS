@@ -1,0 +1,29 @@
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Notes App</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-br from-indigo-50 to-purple-100 min-h-screen">
+  <header class="text-center py-10">
+    <h1 class="text-4xl font-bold text-indigo-700">📝 Note Details</h1>
+    <p class="text-gray-600 mt-2">Here is your note content</p>
+  </header>
+
+  <main class="max-w-3xl mx-auto px-4">
+    <section class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition">
+      <h2 class="text-2xl font-semibold text-gray-800 mb-4"><%= title %></h2>
+      <p class="text-gray-700 leading-relaxed">
+        <!-- Note content will go here -->
+        <%= content %>
+      </p>
+      <a href="/" class="mt-4 inline-block text-indigo-600 hover:underline">← Back to Notes</a>
+    </section>
+  </main>
+  
+  <!-- 🔻 Footer Section -->
+  <footer class="text-center py-6 mt-10 text-gray-500">
+    Made with 💜 using Tailwind CSS and Express.js!
+  </footer>
+</html>

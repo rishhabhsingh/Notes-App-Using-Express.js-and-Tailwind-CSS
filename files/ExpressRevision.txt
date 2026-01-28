@@ -1,0 +1,6 @@
+Express is a Node.js framework
+Routes handle URLs
+Middleware runs before routes
+req = request from browser
+res = response from server
+EJS is used for rendering dynamic HTML

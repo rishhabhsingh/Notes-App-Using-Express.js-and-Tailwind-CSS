@@ -1,0 +1,5 @@
+File name mismatch caused error
+.txt added twice
+Grid was inside loop
+EJS only renders, no logic
+Always console.log params
